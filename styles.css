@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8 ;
+    padding: 14px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hlink {
+    font-size:18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 12px;
+}
+
