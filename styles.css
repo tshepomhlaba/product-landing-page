@@ -7,6 +7,7 @@ body {
 
 .top {
     background-color: #1F2937;
+    flex:1;
 }
 
 .logo {
@@ -19,6 +20,8 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    height: 200px;
+    flex:1;
 }
 
 .hlink {
@@ -30,3 +33,42 @@ body {
     margin-left: 12px;
 }
 
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-img {
+    height: 270px; 
+    width:600px;
+    margin-bottom: 100px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.one {
+    margin-top: -30px;
+    margin-right: -40px;
+}
+
+.button-one {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
