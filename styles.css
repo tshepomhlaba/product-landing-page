@@ -72,3 +72,44 @@ body {
     border: none;
     border-radius: 8px;
 }
+
+.two {
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.second-img {
+    display: flex;
+    height: 250px;
+    font-size:  18px;
+    color:#1F2937 ;
+
+    
+}
+
+
+
+.head-info {
+    display: inline;
+    height:50px;
+    align-items: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+
+.imgsub {
+    margin: 20px;
+}
+
+.imgsub > img {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
