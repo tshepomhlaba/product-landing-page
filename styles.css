@@ -113,3 +113,83 @@ body {
     border: 5px solid #3882F6;
     border-radius: 8px;
 }
+
+.three {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.three > q {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.three > p {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: -450px;
+}
+
+.four {
+    height: 300px;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 1000px;
+    border: 15px solid #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius:8px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.text > h4 {
+    font-size: 24px;
+    margin:0;
+    padding:0;
+}
+
+.text > p {
+    font-size: 18px;
+    margin:0;
+    padding:0;
+    color: #E5E7EB;
+}
+
+.card > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+}
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
